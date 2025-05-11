@@ -188,6 +188,8 @@ section .header{
     border-radius: 5px;
 }
 
+
+
 .features .card h4{
     margin-bottom: 0.5rem;
     color: #fff;
@@ -270,6 +272,14 @@ section .header{
     margin-right: 0.3rem;
 }
 
+.prices{
+    margin-left: 500px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #F8790A;
+    
+}
+
 footer{
     position: relative;
     display: grid;
@@ -297,8 +307,6 @@ footer .column p{
     margin-left: 50px;
     margin-top: .2rem;
 }
-
-
 
 .column{
     min-height: auto;
@@ -373,6 +381,19 @@ footer .column p{
 .column .textarea-field textarea:valid~.focus
 {
     width: 100%;
+}
+
+.column .guide{
+    text-decoration: none;
+    color: #F8790A;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 90px;
+}
+
+.column .guide span{
+color: #F8790A;
+margin-top: 2px;
 }
 
 .copyright{
